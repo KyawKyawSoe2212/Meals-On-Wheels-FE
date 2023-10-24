@@ -1,0 +1,51 @@
+.partnerHome-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #12041b; 
+    padding: 5px 10px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nav-partnerHome {
+    display: flex;
+    color: #f5f5f5;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .card-img-top{
+    border-radius: 10px;
+  }
+  .menu-first-role{
+    background-color: rgb(179, 220, 109);
+    font-size: 1.2rem;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+    height: 190vh; /* Center vertically on the page */
+  }
+  .menu-second-role{
+    background-color: rgb(193, 203, 176);
+  }
+  .menu-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  .menu-table th,
+  .menu-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  

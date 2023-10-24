@@ -1,0 +1,28 @@
+.Fist-role{
+    background-color: rgb(60, 170, 178);
+    font-size: 1.2rem;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically on the page */
+  }
+  
+  .caregiver-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  .caregiver-table th,
+  .caregiver-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .caregiver-table th {
+    background-color: #f2f2f2;
+  }
+  
