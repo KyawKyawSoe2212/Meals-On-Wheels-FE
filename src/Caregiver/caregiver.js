@@ -2,13 +2,22 @@ import React from 'react'
 import './caregiver.css'
 function caregiver() {
 
-    const handleSubmit=(e)=>{
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const one = e.target.name.value;
-        const two = e.target.email.value;
-        const three = e.target.password.value;
-        console.log("Your Name ; " +one ,"\n","Your Email ; " +two, "\n","Your Password ; " +three);
-    }
+        const formData = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            password: e.target.password.value,
+        };
+
+        try {
+            const response = await axios.post('http://localhost:8080/api/auth/register/caregiver', formData);
+            console.log('Registration successful!', response.data);
+            
+        } catch (error) {
+            console.error('Error during registration:', error);
+        }
+    };
 
   return (
     <div>
